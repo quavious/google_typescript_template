@@ -1,0 +1,13 @@
+{
+  "extends": "./node_modules/gts/",
+  "rules": {
+    "no-console": "off",
+    "quotes": ["double", {"allowTemplateLiterals": true}],
+    "no-trailing-spaces": ["error", {
+      "skipBlankLines": false,
+      "ignoreComments": true
+    }],
+    "switch-colon-spacing": ["error", {"after": true, "before": false}],
+    "semi": "error"
+  }
+}
